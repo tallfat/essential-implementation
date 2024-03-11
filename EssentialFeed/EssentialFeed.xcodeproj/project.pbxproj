@@ -12,6 +12,7 @@
 		38F1EACE2B9EE7C10001DDDC /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F1EACD2B9EE7C10001DDDC /* EssentialFeedTests.swift */; };
 		38F1EACF2B9EE7C10001DDDC /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F1EAC12B9EE7C10001DDDC /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38F1EAD92B9EE8310001DDDC /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F1EAD82B9EE8310001DDDC /* FeedItem.swift */; };
+		38F1EADB2B9EEA050001DDDC /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F1EADA2B9EEA050001DDDC /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		38F1EAC82B9EE7C10001DDDC /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F1EACD2B9EE7C10001DDDC /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		38F1EAD82B9EE8310001DDDC /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		38F1EADA2B9EEA050001DDDC /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				38F1EAC12B9EE7C10001DDDC /* EssentialFeed.h */,
 				38F1EAC22B9EE7C10001DDDC /* EssentialFeed.docc */,
 				38F1EAD82B9EE8310001DDDC /* FeedItem.swift */,
+				38F1EADA2B9EEA050001DDDC /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F1EADB2B9EEA050001DDDC /* FeedLoader.swift in Sources */,
 				38F1EAD92B9EE8310001DDDC /* FeedItem.swift in Sources */,
 				38F1EAC32B9EE7C10001DDDC /* EssentialFeed.docc in Sources */,
 			);
